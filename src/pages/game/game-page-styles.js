@@ -27,5 +27,4 @@ export const gamePageStyles = css`
     text-align: right;
     padding-right: 1.25rem;
 	}
-
 `;
