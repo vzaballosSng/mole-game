@@ -9,6 +9,7 @@ const cacheElements = [
 	'/page/home',
 	'/common.css',
 	'/public/manifest.json',
+	'/public/molebg.png',
 	'src_router_js.bundle.js',
 	'node_modules_urlpattern-polyfill_index_js.bundle.js',
 	'/2d8017489da689caedc1.woff2',
