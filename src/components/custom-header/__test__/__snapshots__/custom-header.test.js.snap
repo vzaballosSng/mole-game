@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-header matches the snapshot 1`] = `"[36m<custom-header />[39m"`;

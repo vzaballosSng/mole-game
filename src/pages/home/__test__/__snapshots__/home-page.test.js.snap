@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home-page home-page matches the snapshot 1`] = `
+[
+  "[36m<home-page />[39m",
+  "ShadowRoot {}",
+  "[36m<section[39m
+  [33mclass[39m=[32m"home-section"[39m
+[36m>[39m
+  [0m
+        [0m
+  [36m<div[39m
+    [33mclass[39m=[32m"input-container"[39m
+  [36m>[39m
+    [0m
+          [0m
+    [36m<input[39m
+      [33mplaceholder[39m=[32m"Insert name"[39m
+    [36m/>[39m
+    [0m
+          [0m
+    [0m
+        [0m
+  [36m</div>[39m
+  [0m
+				[0m
+  [36m<custom-button[39m
+    [33mclass[39m=[32m"play-button"[39m
+    [33mtext[39m=[32m"START"[39m
+  [36m>[39m
+    [0m START
+				[0m
+  [36m</custom-button>[39m
+  [0m
+      [0m
+[36m</section>[39m",
+  "[36m<div[39m
+  [33mclass[39m=[32m"input-container"[39m
+[36m>[39m
+  [0m
+          [0m
+  [36m<input[39m
+    [33mplaceholder[39m=[32m"Insert name"[39m
+  [36m/>[39m
+  [0m
+          [0m
+  [0m
+        [0m
+[36m</div>[39m",
+  "[36m<input[39m
+  [33mplaceholder[39m=[32m"Insert name"[39m
+[36m/>[39m",
+  "ShadowRoot {}",
+  "[36m<button[39m
+  [33mclass[39m=[32m"short"[39m
+[36m>[39m
+  [0m
+			  [0m
+  [36m<slot />[39m
+  [0m
+			[0m
+[36m</button>[39m",
+  "[36m<slot />[39m",
+  "[36m<style>[39m
+  [0m
+	button {
+		background-color: #a0522d;
+		border: none;
+    border-radius: 10px;
+		color: white;
+    cursor: pointer;
+		padding: 15px 10px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1rem;
+		min-width: 6.25rem;
+		height: 3.125rem
+	}
+[0m
+[36m</style>[39m",
+  "[36m<style>[39m
+  [0m
+	p {
+		color: black;
+	}
+
+  input {
+    background-color: transparent;
+    padding: .625rem 0;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    outline: none;
+    color: white;
+  }
+
+  input::placeholder {
+   color: white;
+  }
+
+  .home-section {
+    align-items: center;
+    background: linear-gradient(to bottom, #7ec850, #4caf50, #388e3c);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100vh;
+		font-size: 1rem;
+		gap: 5rem;
+	}
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .msg-error {
+    margin-top: .3125rem;
+  }
+[0m
+[36m</style>[39m",
+  "[36m<style>[39m
+  [0m
+
+	h1 {
+		font-size: 2rem;
+	}
+[0m
+[36m</style>[39m",
+]
+`;

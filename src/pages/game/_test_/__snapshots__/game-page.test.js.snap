@@ -1,0 +1,645 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`game-page game-page matches the snapshot 1`] = `
+[
+  "[36m<game-page[39m
+  [33mplayer-name"test"[39m=[32m""[39m
+[36m/>[39m",
+  "ShadowRoot {}",
+  "ShadowRoot {}",
+  "[36m<header[39m
+  [33mclass[39m=[32m"header"[39m
+[36m>[39m
+  [0m
+      [0m
+  [36m<slot[39m
+    [33mname[39m=[32m"left-side"[39m
+  [36m/>[39m
+  [0m
+      [0m
+  [36m<slot[39m
+    [33mname[39m=[32m"right-side"[39m
+  [36m/>[39m
+  [0m
+		[0m
+[36m</header>[39m",
+  "[36m<slot[39m
+  [33mname[39m=[32m"left-side"[39m
+[36m/>[39m",
+  "[36m<slot[39m
+  [33mname[39m=[32m"right-side"[39m
+[36m/>[39m",
+  "[36m<style>[39m
+  [0m
+	:host {
+    display: block;
+    box-sizing: border-box;
+    background-color: #a0522d;
+    padding: 1.25rem;
+    width: 100%;
+	}
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+[0m
+[36m</style>[39m",
+  "[36m<div[39m
+  [33mslot[39m=[32m"left-side"[39m
+[36m>[39m
+  [0m
+          [0m
+  [36m<span[39m
+    [33mclass[39m=[32m"player-name"[39m
+  [36m/>[39m
+  [0m
+        [0m
+[36m</div>[39m",
+  "[36m<span[39m
+  [33mclass[39m=[32m"player-name"[39m
+[36m/>[39m",
+  "[36m<div[39m
+  [33mslot[39m=[32m"right-side"[39m
+[36m>[39m
+  [0m
+          [0m
+  [36m<custom-select[39m
+    [33mlabel-name[39m=[32m"Level:"[39m
+  [36m/>[39m
+  [0m
+        [0m
+[36m</div>[39m",
+  "ShadowRoot {}",
+  "[36m<label[39m
+  [33mfor[39m=[32m"level"[39m
+[36m>[39m
+  [0mLevel:[0m
+[36m</label>[39m",
+  "[36m<select[39m
+  [33maria-label[39m=[32m"level"[39m
+  [33maria-labelledby[39m=[32m"level"[39m
+  [33mid[39m=[32m"level"[39m
+  [33mname[39m=[32m"select-level"[39m
+[36m>[39m
+  [0m
+        [0m
+  [0m [0m
+  [36m<option[39m
+    [33mvalue[39m=[32m"Low"[39m
+  [36m>[39m
+    [0mLow[0m
+  [36m</option>[39m
+  [0m [0m
+  [36m<option[39m
+    [33mvalue[39m=[32m"Medium"[39m
+  [36m>[39m
+    [0mMedium[0m
+  [36m</option>[39m
+  [0m [0m
+  [36m<option[39m
+    [33mvalue[39m=[32m"High"[39m
+  [36m>[39m
+    [0mHigh[0m
+  [36m</option>[39m
+  [0m
+			[0m
+[36m</select>[39m",
+  "[36m<option[39m
+  [33mvalue[39m=[32m"Low"[39m
+[36m>[39m
+  [0mLow[0m
+[36m</option>[39m",
+  "[36m<option[39m
+  [33mvalue[39m=[32m"Medium"[39m
+[36m>[39m
+  [0mMedium[0m
+[36m</option>[39m",
+  "[36m<option[39m
+  [33mvalue[39m=[32m"High"[39m
+[36m>[39m
+  [0mHigh[0m
+[36m</option>[39m",
+  "[36m<style>[39m
+  [0m
+  label {
+    margin-right: .9375rem;
+  }
+
+  select {
+    padding: .625rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+  } 
+[0m
+[36m</style>[39m",
+  "[36m<p[39m
+  [33mclass[39m=[32m"points"[39m
+[36m>[39m
+  [0mPoints: [0m
+  [0m0[0m
+[36m</p>[39m",
+  "[36m<section[39m
+  [33mclass[39m=[32m"mole-container"[39m
+[36m>[39m
+  [0m
+        [0m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole0"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole1"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole2"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole3"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole4"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole5"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole6"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole7"[39m
+  [36m/>[39m
+  [0m 
+            [0m
+  [36m<mole-tile[39m
+    [33mid[39m=[32m"mole8"[39m
+  [36m/>[39m
+  [0m
+      [0m
+[36m</section>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<div[39m
+  [33mclass[39m=[32m"tile"[39m
+[36m>[39m
+  [0m
+      [0m
+  [0m
+    [0m
+[36m</div>[39m",
+  "[36m<style>[39m
+  [0m
+	.tile {
+		width: 6.25rem;
+		height: 6.25rem;
+		border: 1px solid black;
+    background-color: #000000c9;
+	}
+
+	.bg-mole {
+    width: 6.25rem;
+		height: 6.25rem;
+		background-image: url('public/molebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
+
+  .player-name {
+    color: white;
+    line-height: 2rem;
+  }
+
+  .tile p {
+    color: black;
+  }
+[0m
+[36m</style>[39m",
+  "[36m<div[39m
+  [33mclass[39m=[32m"button-container"[39m
+[36m>[39m
+  [0m
+        [0m
+  [36m<custom-button[39m
+    [33mdata-state[39m=[32m""[39m
+  [36m>[39m
+    [0mPLAY[0m
+  [36m</custom-button>[39m
+  [0m
+      [0m
+[36m</div>[39m",
+  "ShadowRoot {}",
+  "[36m<button[39m
+  [33mclass[39m=[32m"short"[39m
+[36m>[39m
+  [0m
+			  [0m
+  [36m<slot />[39m
+  [0m
+			[0m
+[36m</button>[39m",
+  "[36m<slot />[39m",
+  "[36m<style>[39m
+  [0m
+	button {
+		background-color: #a0522d;
+		border: none;
+    border-radius: 10px;
+		color: white;
+    cursor: pointer;
+		padding: 15px 10px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 1rem;
+		min-width: 6.25rem;
+		height: 3.125rem
+	}
+[0m
+[36m</style>[39m",
+  "ShadowRoot {}",
+  "[36m<p[39m
+  [33mclass[39m=[32m"message"[39m
+[36m>[39m
+  [0mWell done[0m
+[36m</p>[39m",
+  "[36m<style>[39m
+  [0m
+	:host {
+    background-color: #050605a3;
+    bottom: 0;
+    color: white;
+
+		height: 1.875rem;
+    opacity: 0;
+    padding: 1.25rem;
+    position: fixed;
+    width: 100%;
+	}
+
+  :host([show]) {
+    opacity: 1;
+    transition: opacity 1s ease;
+  }
+
+  .message {
+    margin: 0;
+    line-height: 2rem;
+  }
+[0m
+[36m</style>[39m",
+  "[36m<style>[39m
+  [0m
+  :host {
+    display: block;
+    background: linear-gradient(to bottom, #7ec850, #4caf50, #388e3c);
+    height: 100vh;
+  }
+
+  .button-container {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+	.mole-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+  }
+
+	.points {
+		color: white;
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 1.25rem;
+	}
+
+[0m
+[36m</style>[39m",
+  "[36m<style>[39m
+  [0m
+
+	h1 {
+		font-size: 2rem;
+	}
+[0m
+[36m</style>[39m",
+]
+`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`notification-message notification-message matches the snapshot 1`] = `"[36m<notification-message />[39m"`;

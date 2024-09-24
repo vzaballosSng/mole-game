@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mole-tile mole-tile matches the snapshot 1`] = `"[36m<mole-tile />[39m"`;
