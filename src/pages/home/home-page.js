@@ -1,7 +1,7 @@
 import { LitElement, html } from 'lit';
-import '../../components/custom-button/custom-button.js';
 import { homePageStyle } from './home-page-styles.js';
 import { commonStyle } from '../../styles/common.js';
+import '../../components/custom-button/custom-button.js';
 
 export class HomePage extends LitElement {
 	static get styles() {
