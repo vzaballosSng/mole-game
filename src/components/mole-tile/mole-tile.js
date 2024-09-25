@@ -5,6 +5,7 @@ export class MoleTile extends LitElement {
   static get properties() {
     return {
       showMole: { type: Boolean, attribute: 'show-mole' },
+      position: { type: Number },
     };
   }
 
