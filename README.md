@@ -7,7 +7,7 @@
 - El código debe ser público
 - Se deberán realizar tests unitarios de las vistas y de los componentes de la aplicación.
 - Se podrá utilizar cualquier infraestructura de alojamiento pública como, por ejemplo, ***Vercel***, Netlify o Github Pages.
-  Url App: <a href="https://spontaneous-mooncake-c7fe9a.netlify.app" target="_blank">https://spontaneous-mooncake-c7fe9a.netlify.app</a>
+  Url App: <a href="https://main--spontaneous-mooncake-c7fe9a.netlify.app/" target="_blank">https://main--spontaneous-mooncake-c7fe9a.netlify.app/</a>
 - Se debe subir un fichero README.md al repositorio con las instrucciones para hacer funcionar la aplicación en local. Puedes añadir cualquier otro dato que consideres necesario.
 
 
