@@ -2,10 +2,10 @@ import { css } from 'lit';
 
 export const customButtonStyles = css`
 	button {
-		background-color: #a0522d;
+		background-color: var(--wood-texture-color);
 		border: none;
     border-radius: 10px;
-		color: white;
+		color: var(--white-color);
     cursor: pointer;
 		padding: 15px 10px;
 		text-align: center;
