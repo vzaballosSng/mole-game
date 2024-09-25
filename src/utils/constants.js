@@ -17,7 +17,7 @@ export const POINTS_LEVEL = {
 };
 
 export const TILES_NUMBER = 9;
-export const MOLES_NUMBER = 1;
+export const MOLES_NUMBER = 2;
 
 export const STATES = {
   stop: 'STOP',
