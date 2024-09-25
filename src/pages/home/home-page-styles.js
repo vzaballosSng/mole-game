@@ -2,7 +2,7 @@ import { css } from 'lit';
 
 export const homePageStyle = css`
 	p {
-		color: black;
+		color: var(--black-color);
 	}
 
   input {
@@ -12,16 +12,16 @@ export const homePageStyle = css`
     border-bottom: 2px solid black;
     font-size: 1rem;
     outline: none;
-    color: white;
+    color: var(--white-color);
   }
 
   input::placeholder {
-   color: white;
+   color: var(--white-color);;
   }
 
   .home-section {
     align-items: center;
-    background: linear-gradient(to bottom, #7ec850, #4caf50, #388e3c);
+    background: var(--main-bg);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
