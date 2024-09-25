@@ -16,4 +16,5 @@ body {
   margin: 0px;
   background-color: var(--background-color, white);
   color: var(--text-color, white);
+  font-family: sans-serif;
 }
