@@ -1,6 +1,7 @@
 import {
-  POINTS_LEVEL,
-  LEVELS_LIST
+	POINTS_LEVEL,
+	LEVELS_LIST,
+	MOLE_STATUS,
 } from '../../utils/constants.js';
 
 export class MoleManager {
@@ -9,28 +10,40 @@ export class MoleManager {
 	generateTiles(numberOfTiles) {
 		const tiles = [];
 		for (let i = 0; i < numberOfTiles; i++) {
-			tiles.push({id: `mole${i}`, show: false});
+			tiles.push({
+				id: `mole${i}`,
+				show: false,
+				position: i,
+				status: MOLE_STATUS.dead,
+			});
 		}
 		return tiles;
 	}
 
-  getPointsByLevel(level) {
-    return POINTS_LEVEL[level];
-  }
+	getPointsByLevel(level) {
+		return POINTS_LEVEL[level];
+	}
 
-  getRandomTile(numberOfTiles, excludeNumber = false) {
-    let randomNumber;
-    do {
-      randomNumber = Math.floor(Math.random() * numberOfTiles);
-    } while ((randomNumber === excludeNumber) && excludeNumber);
-    return randomNumber.toString();
-  }
+	getRandomTile(numberOfTiles, numberOfMoles, excludeNumber = []) {
+		if (!excludeNumber) {
+			excludeNumber = [];
+		}
 
-  restartPoints() {
-    return 0;
-  }
+		const numbers = [];
+		while (numbers.length < numberOfMoles) {
+			const num = Math.floor(Math.random() * numberOfTiles);
+			if (!numbers.includes(num) && !excludeNumber.includes(num)) {
+				numbers.push(num);
+			}
+		}
+		return numbers;
+	}
 
-  getLevels() {
-    return LEVELS_LIST;
-  }
+	restartPoints() {
+		return 0;
+	}
+
+	getLevels() {
+		return LEVELS_LIST;
+	}
 }
