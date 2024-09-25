@@ -3,7 +3,7 @@ import { css } from 'lit';
 export const gamePageStyles = css`
   :host {
     display: block;
-    background: linear-gradient(to bottom, #7ec850, #4caf50, #388e3c);
+    background: var(--main-bg);
     height: 100vh;
   }
 
@@ -22,7 +22,7 @@ export const gamePageStyles = css`
   }
 
 	.points {
-		color: white;
+		color: var(--white-color);
     font-size: 1.5rem;
     text-align: right;
     padding-right: 1.25rem;
