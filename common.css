@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 :root {
-    --color-primario: blue;
-    --color-secundario: #2ecc71;
-    --spacing: 20px;
-    --text-color: white;
-    --background-color: white;
+  --black-color: #000000FF;
+  --bg-black-color: #050605a3;
+  --grass-texture-color: #2ecc71;
+  --wood-texture-color: #a0522d;
+  --white-color: #ffffff;
+
+  --spacing: 20px;
+  --text-color: var(--white-color);
+  --background-color: white;
+  --main-bg: linear-gradient(to bottom, #7ec850, #4caf50, #388e3c);
 }
 
 body {
-    margin: 0px;
-    background-color: var(--background-color, white);
-    color: var(--text-color, black);
+  margin: 0px;
+  background-color: var(--background-color, white);
+  color: var(--text-color, white);
 }
