@@ -12,7 +12,7 @@ export const gamePageStyles = css`
     text-align: center;
   }
 
-	.mole-container {
+  .mole-container {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
@@ -21,10 +21,14 @@ export const gamePageStyles = css`
     gap: 1.875rem;
   }
 
-	.points {
-		color: var(--white-color);
+ .points {
+	  color: var(--white-color);
     font-size: 1.5rem;
     text-align: right;
     padding-right: 1.25rem;
 	}
+ 
+ .player-name: {
+   font-size: 1.6rem;
+ }
 `;
