@@ -4,7 +4,7 @@ export const customHeaderStyles = css`
 	:host {
     display: block;
     box-sizing: border-box;
-    background-color: #a0522d;
+    background-color: var(--wood-texture-color);
     padding: 1.25rem;
     width: 100%;
 	}
